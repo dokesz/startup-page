@@ -36,7 +36,7 @@ p {
 footer {
   display: flex;
   justify-content: center;
-  margin: 5px;
+  flex-direction: column;
 }
 
 .bi {
@@ -50,6 +50,7 @@ footer {
 
 h3 {
   color: white;
+  margin-bottom: 0%;
 }
 
 .buffer {
@@ -58,4 +59,19 @@ h3 {
 
 .bi-discord {
   cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  justify-items: center;
+  margin-top: 5px;
+  background-color: rgba(112, 112, 112, 0.5);
+}
+
+.dokesz{
+  color: black
+}
+
+.dokesz:hover {
+  color: rgb(34, 14, 109);
 }
