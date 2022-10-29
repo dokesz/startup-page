@@ -33,6 +33,25 @@ p {
   flex-direction: column;
 }
 
+footer {
+  display: flex;
+  justify-content: left;
+  margin: 5px;
+}
+
+.bi {
+  color: black;
+  border: 0px;
+}
+
+.bi:hover{
+  color: #6c757d;
+}
+
+h3 {
+  color: white;
+}
+
 .buffer {
   height: 5rem;
 }
